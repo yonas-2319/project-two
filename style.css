@@ -1,0 +1,158 @@
+.container1{
+    height: 400px;
+    background-color: rgba(16, 8, 22, 0.993);
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   gap: 400px;
+   margin-bottom: 100px;
+   padding-top: 8px;
+   
+}
+.logo{
+    color: white;
+    font-size: larger;
+    margin-left: 100px;
+}
+.list{
+    color: white;
+    display: flex;
+    gap: 2em;
+    margin-right: 200px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    color: white;
+}
+.t1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 100px;
+
+}
+.b1{
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    margin-top: 2em;
+    width: fit-content;
+    height: auto;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.text img{
+    width: 300px;
+   margin-right: 200px;
+   margin-top: 2em;
+   padding-bottom: 50px;
+}
+.container2{
+    height: 400px;
+    background-color: white;
+}
+.text2{
+   display: flex; 
+   gap: 2em;
+   justify-content: center;
+   margin: 0 200px;
+   flex-grow: 1;
+   
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.a img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 8px;
+}
+
+.container2 h1{
+    text-align: center;
+}
+.container3{
+    height: 400px;
+    background-color: rgb(144, 190, 196);
+}
+.text3{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin: 0 auto;
+    width: 400px;
+    
+}
+.quote{
+   
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.c{
+    
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    
+}
+span{
+    align-self: self-end;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.container4{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text4{
+    height: 200px;
+    width: 800px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    
+}
+.b2{
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 8px 16px;
+}
+
+.footer{
+    height: 100px;
+
+    background-color: rgb(59, 56, 56);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
